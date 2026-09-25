@@ -1,0 +1,7 @@
+# The repo-root .gitignore excludes *.json, *.csv and config.yaml globally (they
+# are normally large data artefacts). The three files below are SOURCE, not data
+# -- the module cannot run without them -- so re-include them here.
+# This file is scoped to code/llm_study/ and changes nothing elsewhere.
+!config.yaml
+!categories.json
+!prompts/manifest.csv

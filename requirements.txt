@@ -1,0 +1,13 @@
+# Python dependencies (tested with Python 3.11+)
+anthropic
+openai
+python-dotenv
+pyyaml
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+geopandas
+folium
+openpyxl

@@ -1,0 +1,4 @@
+filename,label,guidance_level
+p2_scoped.md,Scoped,low
+p3_informed.md,Informed,moderate
+p4_engineered.md,Engineered,high

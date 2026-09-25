@@ -1,0 +1,242 @@
+{
+  "name": "focal_species_41",
+  "description": "The 41 focal UK red-list bird species under active study; single source of truth. Matches the expert-survey form and all analyses (eBird data, RSPB Handbook, LLM study).",
+  "count": 41,
+  "provenance": "Extracted from FOCAL_SPECIES in code/landcover_analysis/15_selection_ratio_correction.py, 29 July 2026.",
+  "notes": [
+    "Order is significant: script 15 sorts its outputs by this order, so downstream matrices are row-aligned to it. Do not reorder.",
+    "scientific_name resolved from code/ebirdst/species_list.json (eBird taxonomy).",
+    "red_list_name is present only where the British vernacular differs from common_name; it is the name shown to the model in the LLM study and used for RSPB Handbook coding.",
+    "This file is the study set. code/ebirdst/bocc_birds/red_list.json is a 70-entry name-only BoCC reference and the red_list_available group in species_list.json is a 50-species availability set; neither is the study set."
+  ],
+  "species": [
+    {
+      "ebird_code": "eursha1",
+      "common_name": "European Shag",
+      "scientific_name": "Gulosus aristotelis",
+      "red_list_name": "Shag"
+    },
+    {
+      "ebird_code": "bklkit",
+      "common_name": "Black-legged Kittiwake",
+      "scientific_name": "Rissa tridactyla",
+      "red_list_name": "Kittiwake"
+    },
+    {
+      "ebird_code": "comswi",
+      "common_name": "Common Swift",
+      "scientific_name": "Apus apus",
+      "red_list_name": "Swift"
+    },
+    {
+      "ebird_code": "houspa",
+      "common_name": "House Sparrow",
+      "scientific_name": "Passer domesticus"
+    },
+    {
+      "ebird_code": "cirbun1",
+      "common_name": "Cirl Bunting",
+      "scientific_name": "Emberiza cirlus"
+    },
+    {
+      "ebird_code": "rengre",
+      "common_name": "Red-necked Grebe",
+      "scientific_name": "Podiceps grisegena"
+    },
+    {
+      "ebird_code": "eutdov",
+      "common_name": "European Turtle-Dove",
+      "scientific_name": "Streptopelia turtur",
+      "red_list_name": "Turtle dove"
+    },
+    {
+      "ebird_code": "comgol",
+      "common_name": "Common Goldeneye",
+      "scientific_name": "Bucephala clangula",
+      "red_list_name": "Goldeneye"
+    },
+    {
+      "ebird_code": "misthr1",
+      "common_name": "Mistle Thrush",
+      "scientific_name": "Turdus viscivorus"
+    },
+    {
+      "ebird_code": "eurcur",
+      "common_name": "Eurasian Curlew",
+      "scientific_name": "Numenius arquata",
+      "red_list_name": "Curlew"
+    },
+    {
+      "ebird_code": "atlpuf",
+      "common_name": "Atlantic Puffin",
+      "scientific_name": "Fratercula arctica",
+      "red_list_name": "Puffin"
+    },
+    {
+      "ebird_code": "rebshr1",
+      "common_name": "Red-backed Shrike",
+      "scientific_name": "Lanius collurio"
+    },
+    {
+      "ebird_code": "comnig1",
+      "common_name": "Common Nightingale",
+      "scientific_name": "Luscinia megarhynchos",
+      "red_list_name": "Nightingale"
+    },
+    {
+      "ebird_code": "lotduc",
+      "common_name": "Long-tailed Duck",
+      "scientific_name": "Clangula hyemalis"
+    },
+    {
+      "ebird_code": "grypar",
+      "common_name": "Gray Partridge",
+      "scientific_name": "Perdix perdix",
+      "red_list_name": "Grey partridge"
+    },
+    {
+      "ebird_code": "comcuc",
+      "common_name": "Common Cuckoo",
+      "scientific_name": "Cuculus canorus",
+      "red_list_name": "Cuckoo"
+    },
+    {
+      "ebird_code": "renpha",
+      "common_name": "Red-necked Phalarope",
+      "scientific_name": "Phalaropus lobatus"
+    },
+    {
+      "ebird_code": "eursta",
+      "common_name": "European Starling",
+      "scientific_name": "Sturnus vulgaris",
+      "red_list_name": "Starling"
+    },
+    {
+      "ebird_code": "corplo",
+      "common_name": "Common Ringed Plover",
+      "scientific_name": "Charadrius hiaticula",
+      "red_list_name": "Ringed plover"
+    },
+    {
+      "ebird_code": "norlap",
+      "common_name": "Northern Lapwing",
+      "scientific_name": "Vanellus vanellus",
+      "red_list_name": "Lapwing"
+    },
+    {
+      "ebird_code": "balshe1",
+      "common_name": "Balearic Shearwater",
+      "scientific_name": "Puffinus mauretanicus"
+    },
+    {
+      "ebird_code": "horgre",
+      "common_name": "Slavonian (Horned) Grebe",
+      "scientific_name": "Podiceps auritus",
+      "red_list_name": "Slavonian grebe"
+    },
+    {
+      "ebird_code": "compoc",
+      "common_name": "Common Pochard",
+      "scientific_name": "Aythya ferina",
+      "red_list_name": "Pochard"
+    },
+    {
+      "ebird_code": "monhar1",
+      "common_name": "Montagu's Harrier",
+      "scientific_name": "Circus pygargus"
+    },
+    {
+      "ebird_code": "cogwar1",
+      "common_name": "Common Grasshopper Warbler",
+      "scientific_name": "Locustella naevia",
+      "red_list_name": "Grasshopper warbler"
+    },
+    {
+      "ebird_code": "eutspa",
+      "common_name": "Eurasian Tree Sparrow",
+      "scientific_name": "Passer montanus",
+      "red_list_name": "Tree sparrow"
+    },
+    {
+      "ebird_code": "redpol1",
+      "common_name": "Redpoll",
+      "scientific_name": "Acanthis flammea"
+    },
+    {
+      "ebird_code": "dunlin",
+      "common_name": "Dunlin",
+      "scientific_name": "Calidris alpina"
+    },
+    {
+      "ebird_code": "martit2",
+      "common_name": "Marsh Tit",
+      "scientific_name": "Poecile palustris"
+    },
+    {
+      "ebird_code": "blksco1",
+      "common_name": "Common Scoter",
+      "scientific_name": "Melanitta nigra"
+    },
+    {
+      "ebird_code": "eurlin1",
+      "common_name": "Eurasian Linnet",
+      "scientific_name": "Linaria cannabina",
+      "red_list_name": "Linnet"
+    },
+    {
+      "ebird_code": "gwfgoo",
+      "common_name": "Greater White-fronted Goose",
+      "scientific_name": "Anser albifrons",
+      "red_list_name": "White-fronted goose"
+    },
+    {
+      "ebird_code": "comhom1",
+      "common_name": "Western House-Martin",
+      "scientific_name": "Delichon urbicum",
+      "red_list_name": "House martin"
+    },
+    {
+      "ebird_code": "pursan",
+      "common_name": "Purple Sandpiper",
+      "scientific_name": "Calidris maritima"
+    },
+    {
+      "ebird_code": "eurwoo",
+      "common_name": "Eurasian Woodcock",
+      "scientific_name": "Scolopax rusticola",
+      "red_list_name": "Woodcock"
+    },
+    {
+      "ebird_code": "corbun1",
+      "common_name": "Corn Bunting",
+      "scientific_name": "Emberiza calandra"
+    },
+    {
+      "ebird_code": "norhar1",
+      "common_name": "Hen Harrier",
+      "scientific_name": "Circus cyaneus"
+    },
+    {
+      "ebird_code": "lcspet",
+      "common_name": "Leach's Storm-Petrel",
+      "scientific_name": "Hydrobates leucorhous"
+    },
+    {
+      "ebird_code": "eurgre1",
+      "common_name": "European Greenfinch",
+      "scientific_name": "Chloris chloris",
+      "red_list_name": "Greenfinch"
+    },
+    {
+      "ebird_code": "merlin",
+      "common_name": "Merlin",
+      "scientific_name": "Falco columbarius"
+    },
+    {
+      "ebird_code": "gresca",
+      "common_name": "Greater Scaup",
+      "scientific_name": "Aythya marila",
+      "red_list_name": "Scaup"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Secrets
+.env
+*.env
+
+# Expert survey responses contain names and emails -- never commit them
+code/expert_responses/*.csv
+code/expert_responses/tidy/
+
+# Data and generated outputs are NOT distributed with this repository.
+# See README.md for how to obtain the source data.
+/outputs/
+/Results figures/
+code/**/data/
+code/**/outputs/*
+!code/UKCEH_data/outputs/README_merged_landcover.md
+*.tif
+*.nc
+*.netcdf
+*.gpkg
+*.shp
+
+# Python / R
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

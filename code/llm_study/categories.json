@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "The 9 canonical UKCEH-aggregate (Strategy 2) habitat categories.",
+    "FROZEN: slug order and label spelling are byte-identical to",
+    "  code/landcover_analysis/13_aggregate9_1km_weighted_presence_matrix.py (CATEGORIES),",
+    "  code/landcover_analysis/15_selection_ratio_correction.py (CATEGORIES),",
+    "  code/habitat_agents/_agent_common.py (CATEGORIES / CATEGORY_LABELS), and",
+    "  the R-generated redlist_abundance_by_aggregate9_1km_weighted_long.csv 'category_label' column.",
+    "Downstream scoring joins matrices on these slugs; a mismatch produces a silently",
+    "empty column rather than an error, so do NOT rename or reorder them."
+  ],
+  "categories": [
+    { "slug": "woodland",           "label": "Woodland" },
+    { "slug": "arable",             "label": "Arable" },
+    { "slug": "improved_grassland", "label": "Improved grassland" },
+    { "slug": "seminat_grassland",  "label": "Semi-natural grassland" },
+    { "slug": "mountain_heath_bog", "label": "Mountain, heath and bog" },
+    { "slug": "saltwater",          "label": "Saltwater" },
+    { "slug": "freshwater",         "label": "Freshwater" },
+    { "slug": "coastal",            "label": "Coastal" },
+    { "slug": "builtup",            "label": "Built-up" }
+  ]
+}

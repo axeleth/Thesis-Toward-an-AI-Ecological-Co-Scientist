@@ -1,0 +1,10 @@
+# Scoped un-ignore for canonical source-of-truth files under code/.
+#
+# The repo-root .gitignore excludes *.json globally (those are normally large
+# data artefacts). focal_species.json is SOURCE, not data: it is the single
+# source of truth for the 41 focal species and every analysis reads it, so the
+# repo is broken without it.
+#
+# This file is scoped to code/ and changes nothing elsewhere. The root
+# .gitignore is deliberately left untouched.
+!focal_species.json
